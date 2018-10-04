@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="process"
+        android:text="NEXT"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="process"
+        android:text="MAP"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="382dp"
+        android:layout_height="41dp"
+        android:background="@android:color/darker_gray"
+        android:text="      "
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="29dp"
+        android:text="Card Activity"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorLink="@color/colorAccent"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="381dp"
+        android:layout_height="79dp"
+        android:background="@android:color/darker_gray"
+        android:text="Clark Kent"
+        android:textColor="@android:color/holo_red_dark"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/ewqeqeq"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="384dp"
+        android:layout_height="81dp"
+        android:background="@android:color/darker_gray"
+        android:text="Bruce Wayne"
+        android:textColor="@android:color/holo_red_dark"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/dsdss"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="386dp"
+        android:layout_height="79dp"
+        android:background="@android:color/darker_gray"
+        android:text="Barack Obama"
+        android:textColor="@android:color/holo_red_dark"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/obama"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="307dp"
+        android:layout_height="99dp"
+        android:text="Superman's secret identity as Clark Kent is one of the DC Universe's greatest secrets. Only a few trusted people are aware of it, such as Batman and other members of the Justice League, Superman's cousin Supergirl, and Clark's childhood friend Lana Lang. "
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="311dp"
+        android:layout_height="79dp"
+        android:text="Batman's secret identity is Bruce Wayne, a wealthy American playboy, philanthropist, and owner of Wayne Enterprises. After witnessing the murder of his parents Dr. Thomas Wayne and Martha Wayne as a child, he swore vengeance against criminals, an oath tempered by a sense of justice. Bruce Wayne trains himself physically and intellectually and crafts a bat-inspired persona to fight crime"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="306dp"
+        android:layout_height="63dp"
+        android:text="An American politician who served as the 44th President of the United States from January 20, 2009, to January 20, 2017. A member of the Democratic Party, he was the first African American to be elected to the presidency and previously served as a United States Senator from Illinois (2005–2008)."
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="9sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="308dp" />
+</android.support.constraint.ConstraintLayout>
